@@ -1,0 +1,47 @@
+.app{
+  height: 100vh;
+  display: flex;
+  background-color: #020230;
+  color: white;
+}
+
+.main{
+  width: 75%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0),#020230),url("./bg.jpg") center;
+}
+
+.sidecontainer{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.moneylist{
+  list-style: none;
+  width: 100%;
+  padding: 20px;
+
+}
+
+
+.moneylistitem{
+  display: flex;
+  align-items: center;
+}
+
+.moneylistitem active{
+  background-color: teal;
+}
+
+.questionno{
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.price{
+  font-size: 20px;
+  font-weight: 300;
+}
+
